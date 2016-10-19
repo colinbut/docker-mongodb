@@ -4,7 +4,7 @@
 
 FROM ubuntu:16.04
 
-MAINTAINER Colin But colin.but@outlook.com
+MAINTAINER Colin But <colin.but@outlook.com>
 
 # Importing MongoDB public GPG key AND create a MongoDB list file
 RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
